@@ -1,0 +1,5 @@
+3956c5776136177d5c200aa085fa67f70a45f090		branch 'master' of https://github.com/rbenv/ruby-build
+4d8999e9d10651adee3030d9e74667a852aac846	not-for-merge	branch 'binary-packages' of https://github.com/rbenv/ruby-build
+025e7c6952df313f899d01db6198ef6a11b427bb	not-for-merge	branch 'dep-checks' of https://github.com/rbenv/ruby-build
+57858d29638fab9e64a8f4bad803287ea083173a	not-for-merge	branch 'rbx-openssl' of https://github.com/rbenv/ruby-build
+fe56108bcb148a72855db2726ef1bff1aec7d660	not-for-merge	branch 'remove-rubinius' of https://github.com/rbenv/ruby-build
