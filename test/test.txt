@@ -1,5 +1,0 @@
-
-fixtures
-stubs
-tmp
-*.bats files
