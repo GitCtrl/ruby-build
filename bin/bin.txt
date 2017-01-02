@@ -1,1 +1,4 @@
 
+rbenv-install.sh
+rbenv-uninstall.sh
+ruby-build.sh
