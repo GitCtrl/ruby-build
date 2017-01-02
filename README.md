@@ -12,14 +12,14 @@ Installing as an rbenv plugin (recommended)
 
 Installing ruby-build as an rbenv plugin will give you access to the rbenv install command.
 
-git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone https://github.com/GitCtrl/ruby-build.git ~/.rbenv/plugins/ruby-build
 This will install the latest development version of ruby-build into the ~/.rbenv/plugins/ruby-build directory. From that directory, you can check out a specific release tag. To update ruby-build, run git pull to download the latest changes.
 
 Installing as a standalone program (advanced)
 
 Installing ruby-build as a standalone program will give you access to the ruby-build command for precise control over Ruby version installation. If you have rbenv installed, you will also be able to use the rbenv install command.
 
-git clone https://github.com/rbenv/ruby-build.git
+git clone https://github.com/GitCtrl/ruby-build.git
 cd ruby-build
 ./install.sh
 This will install ruby-build into /usr/local. If you do not have write permission to /usr/local, you will need to run sudo ./install.sh instead. You can install to a different prefix by setting the PREFIX environment variable.
@@ -47,7 +47,7 @@ Using rbenv install with rbenv
 
 To install a Ruby version for use with rbenv, run rbenv install with the exact name of the version you want to install. For example,
 
-rbenv install 2.2.0
+rbenv install 2.4.0
 Ruby versions will be installed into a directory of the same name under ~/.rbenv/versions.
 
 To see a list of all available Ruby versions, run rbenv install --list. You may also tab-complete available Ruby versions if your rbenv installation is properly configured.
@@ -58,7 +58,7 @@ If you have installed ruby-build as a standalone program, you can use the ruby-b
 
 Run the ruby-build command with the exact name of the version you want to install and the full path where you want to install it. For example,
 
-ruby-build 2.2.0 ~/local/ruby-2.2.0
+ruby-build 2.4.0 ~/local/ruby-2.4.0
 To see a list of all available Ruby versions, run ruby-build --definitions.
 
 Pass the -v or --verbose flag to ruby-build as the first argument to see what's happening under the hood.
